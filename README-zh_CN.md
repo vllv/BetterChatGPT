@@ -4,7 +4,7 @@
     <a href="https://bettergpt.chat" target="_blank"><img src="public/apple-touch-icon.png" alt="Better ChatGPT" width="100" /></a>
 </p>
 
-<h4 align="center"><b>免费、无限、强大、智能、人</b></h4>
+<h4 align="center"><b>免费、无限、强大、智能、非常迷人</b></h4>
 
 <p align="center">
 <a href="https://github.com/ztjhz/BetterChatGPT/blob/main/LICENSE" target="_blank">
