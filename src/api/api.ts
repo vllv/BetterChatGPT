@@ -13,8 +13,8 @@ export const getChatCompletion = async (
     'Content-Type': 'application/json',
     ...customHeaders,
   };
-  if (apiKey) headers.Authorization = `Bearer ${apiKey}`;
-
+ // if (apiKey) headers.Authorization = `Bearer ${apiKey}`;
+  headers['api-key'] = apiKey;
   if (isAzureEndpoint(endpoint) && apiKey) {
     headers['api-key'] = apiKey;
 
@@ -69,8 +69,8 @@ export const getChatCompletionStream = async (
     'Content-Type': 'application/json',
     ...customHeaders,
   };
-  if (apiKey) headers.Authorization = `Bearer ${apiKey}`;
-
+  //if (apiKey) headers.Authorization = `Bearer ${apiKey}`;
+  headers['api-key'] = apiKey;
   if (isAzureEndpoint(endpoint) && apiKey) {
     headers['api-key'] = apiKey;
 
